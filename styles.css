@@ -1,57 +1,9 @@
-body {
-    font-family: Helvetica, sans-serif;
-    background-color: #23272a;
-    color: white;
+body, html {
+    padding: 0;
+    margin: 0;
 }
 
-.Content-Holder {
-    max-width: 1000px;
-    height: 100%;
-    padding: 20px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    background: #3e464b;
-}
 
-.table {
-    border: 1px solid white;
-    border-spacing: 0;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.table th, td {
-    padding: 5px;
-    border: 1px solid white;
-}
-
-.hoverRow {
-    transition-duration: 300ms;
-}
-
-.hoverRow:hover {
-    background: #59636c;
-}
-
-.oldPrice {
-    text-decoration: line-through;
-}
-
-.order {
-    cursor: pointer;
-    transition-duration: 300ms;
-    user-select: none;
-}
-
-.order:hover {
-    background: #59636c;
-}
-
-.order-up:after{
-    content: " ↑";
-}
-
-.order-down:after{
-    content: " ↓";
+#myCanvas {
+    display: block;
 }
