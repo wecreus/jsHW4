@@ -13,7 +13,7 @@ function draw() {
     ctx.arc(5 * i, 5 * i, 50, 0, 2*Math.PI, false);
     ctx.fill();
     i++;
-    if(5 * i < window.innerHeight){
+    if(5 * i < window.innerHeight && 5 * i < window.innerWidth){
         requestAnimationFrame(draw);
     }
 
