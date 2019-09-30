@@ -7,7 +7,7 @@ function Circle(radius, color) {
     this.radius = radius;
     this.iX = 0;
     this.iY = 0;
-    this.speed = 9;
+    this.speed = 5;
     this.dxX =
         Math.round(this.speed * Math.sin((135 * Math.PI) / 180) * 1000) / 1000; // base velocity
     this.dxY =
@@ -129,3 +129,5 @@ let myInterval = setInterval(function() {
     }
     sI++;
 }, 5000);
+
+
